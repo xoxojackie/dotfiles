@@ -1,0 +1,6 @@
+
+mdch () { sudo mkdir -p $1 && sudo chown -R $USER:$USER $1 }
+mdcd () { mkdir -p $1 && cd $1 }
+
+speedtest () { docker run --rm --net=host tianon/speedtest }
+

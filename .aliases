@@ -1,0 +1,25 @@
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias la="ls -a"
+alias lla="ls -la"
+alias ll="ls -lh"
+
+alias svim="sudo -E vim"
+
+alias hiss="history | grep"
+
+alias ctlr="sudo systemctl restart"
+alias ctl="sudo systemctl"
+
+alias journal="sudo journalctl"
+
+alias aptup="sudo apt-get update && sudo apt-get upgrade"
+alias inst="sudo apt-get install"
+
+alias disks="sudo lsblk -o 'NAME,LABEL,SIZE,MOUNTPOINT,UUID,VENDOR'"
+
+alias rsync="rsync --no-i-r --info=progress2"
+
+alias dc="docker-compose -f /opt/docker-compose.yml"
