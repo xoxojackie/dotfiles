@@ -3,3 +3,5 @@
 if [[ $(uname) == "Linux" ]]; then
    sudo apt install zsh
 fi
+
+chsh -s $(which zsh) && zsh
