@@ -17,5 +17,5 @@ antigen apply
 
 
 # source aliases and functions
-[[ -f ~/.aliases ]] && source ~/.aliases
-[[ -f ~/.functions]] && source ~/.functions
+[[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
+[[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
