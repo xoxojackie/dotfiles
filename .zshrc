@@ -10,7 +10,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
 # theme
-antigen theme robbyrussell
+antigen theme pure
 
 # apply antigen
 antigen apply
