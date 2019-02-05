@@ -14,3 +14,8 @@ antigen theme pure
 
 # apply antigen
 antigen apply
+
+
+# source aliases and functions
+[[ -f ~/.aliases ]] && source ~/.aliases
+[[ -f ~/.functions]] && source ~/.functions
