@@ -13,7 +13,7 @@ antigen bundle tmux
 antigen bundle z
 
 # theme
-antigen theme pure
+antigen theme denysdovhan/spaceship-prompt
 
 # apply antigen
 antigen apply
