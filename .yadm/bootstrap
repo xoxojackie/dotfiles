@@ -1,23 +1,21 @@
 #!/bin/bash
 
-echo "Imstalling zsh and git"
-
 if [[ $(uname) == "Linux" ]]; then
-   sudo apt install zsh git
+   sudo apt install zsh git tmux vim
 elif [[ $(uname) == "Darwin" ]]; then
-   brew install zsh git
+   brew install zsh git tmux vim
 fi
 
-echo "Changing shell to zsh"
 chsh -s $(which zsh) && zsh
 
-echo "Checking for antigen"
 if [[ ! -e $HOME/.antigen ]]; then
-   echo "Cloning antigen"
    git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
 fi
 
-echo "Sourcing antigen and .zshrc"
-source $HOME/.antigen/antigen.zsh
-source $HOME/.zshrc
+if [[ ! -e $HOME/.tmux/plugins/tpm ]]; then
+   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
+
+echo "Log out and log back in!"
 
