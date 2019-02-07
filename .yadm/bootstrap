@@ -6,7 +6,6 @@ elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim
 fi
 
-chsh -s $(which zsh) && zsh
 
 if [[ ! -e $HOME/.antigen ]]; then
    git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
@@ -16,6 +15,7 @@ if [[ ! -e $HOME/.tmux/plugins/tpm ]]; then
    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
+chsh -s $(which zsh) && zsh
 
 echo "Log out and log back in!"
 
