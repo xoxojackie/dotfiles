@@ -1,7 +1,22 @@
 #!/bin/bash
 
+echo "Imstalling zsh and git"
+
 if [[ $(uname) == "Linux" ]]; then
-   sudo apt install zsh
+   sudo apt install zsh git
+elif [[ $(uname) == "Darwin" ]]; then
+   brew install zsh git
 fi
 
+echo "Changing shell to zsh"
 chsh -s $(which zsh) && zsh
+
+echo "Checking for antigen"
+if [[ ! -e $HOME/.antigen ]]; then
+   echo "Cloning antigen"
+   git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
+fi
+
+echo "Sourcing .zshrc"
+source $HOME/.zshrc
+
