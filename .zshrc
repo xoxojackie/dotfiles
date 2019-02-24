@@ -19,6 +19,9 @@ antigen theme denysdovhan/spaceship-prompt
 antigen apply
 
 
+# spaceship prompt settings
+SPACESHIP_CHAR_SYMBOL="❯ "
+
 # source aliases and functions
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"

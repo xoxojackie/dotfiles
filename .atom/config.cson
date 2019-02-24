@@ -1,3 +1,12 @@
 "*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "nord-atom-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    softWrap: true
+    tabLength: 3
   "exception-reporting":
     userId: "87102d9b-5def-4934-a0c1-9e23ede56d6f"
