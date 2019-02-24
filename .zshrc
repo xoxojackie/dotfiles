@@ -23,6 +23,7 @@ export EDITOR='nvim'
 
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="❯ "
+SPACESHIP_HOST_PREFIX="@ "
 
 case $USER in
    thewiz)
