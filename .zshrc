@@ -18,6 +18,8 @@ antigen theme denysdovhan/spaceship-prompt
 # apply antigen
 antigen apply
 
+# editor
+export EDITOR='nvim'
 
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="❯ "

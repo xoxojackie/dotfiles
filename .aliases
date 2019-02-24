@@ -6,6 +6,7 @@ alias la="ls -a"
 alias lla="ls -la"
 alias ll="ls -lh"
 
+alias vim="nvim"
 alias svim="sudo -E vim"
 
 alias hiss="history | grep"
