@@ -24,11 +24,11 @@ export EDITOR='nvim'
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_HOST_PREFIX="@ "
+SPACESHIP_EXEC_TIME_PREFIX="⧖ "
+SPACESHIP_EXIT_CODE_SHOW="true"
 
-case $USER in
-   thewiz)
-      SPACESHIP_USER_SHOW=false
-esac
+SPACESHIP_PROMPT_ORDER=(dir exec_time exit_code)
+SPACESHIP_RPROMPT_ORDER=(git docker user host)
 
 case $HOST in
    Avalon)
