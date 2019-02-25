@@ -27,8 +27,8 @@ SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
 SPACESHIP_EXIT_CODE_SHOW="true"
 
-SPACESHIP_PROMPT_ORDER=(dir exec_time exit_code)
-SPACESHIP_RPROMPT_ORDER=(git docker user host)
+SPACESHIP_PROMPT_ORDER=(dir exec_time exit_code docker git pyenv line_sep char)
+SPACESHIP_RPROMPT_ORDER=(user host)
 
 case $HOST in
    Avalon)
