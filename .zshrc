@@ -25,9 +25,14 @@ export EDITOR='nvim'
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
-SPACESHIP_EXIT_CODE_SHOW="true"
 
-SPACESHIP_PROMPT_ORDER=(dir exec_time exit_code docker git pyenv line_sep char)
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
+SPACESHIP_EXIT_CODE_SHOW="true"
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_USER_COLOR="white"
+SPACESHIP_HOST_SHOW="always"
+
+SPACESHIP_PROMPT_ORDER=(dir exec_time docker git pyenv line_sep exit_code char)
 SPACESHIP_RPROMPT_ORDER=(user host)
 
 case $HOST in
