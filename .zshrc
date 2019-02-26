@@ -32,7 +32,7 @@ SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_COLOR="white"
 SPACESHIP_HOST_SHOW="always"
 
-SPACESHIP_PROMPT_ORDER=(dir exec_time docker git pyenv line_sep exit_code char)
+SPACESHIP_PROMPT_ORDER=(dir exec_time docker git pyenv ruby line_sep exit_code char)
 SPACESHIP_RPROMPT_ORDER=(user host)
 
 case $HOST in
@@ -48,7 +48,7 @@ esac
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
-if [[ $HOST == "Guinivere" ]]; then 
+if [[ $HOST == "Guinevere" ]]; then 
    source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
    eval "$(rbenv init -)"
 fi
