@@ -48,5 +48,7 @@ esac
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
-#[[ -f "$HOME/.iterm2/.iterm2_shell_integration.zsh" ]] && source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
+if [[ $HOST == "Guinivere" ]]; then 
+   source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
+fi
 
