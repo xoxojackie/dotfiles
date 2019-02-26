@@ -48,5 +48,5 @@ esac
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
-test -e "${HOME}/.iterm2/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2/.iterm2_shell_integration.zsh"
+#[[ -f "$HOME/.iterm2/.iterm2_shell_integration.zsh" ]] && source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
 
