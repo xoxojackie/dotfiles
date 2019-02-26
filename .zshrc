@@ -50,5 +50,6 @@ esac
 
 if [[ $HOST == "Guinivere" ]]; then 
    source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
+   eval "$(rbenv init -)"
 fi
 
