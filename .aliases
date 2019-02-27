@@ -1,10 +1,20 @@
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# my aliases
+
+# quick platform check
+PLATFORM=$(uname)
+
 
 alias la="ls -a"
 alias lla="ls -la"
 alias ll="ls -lh"
+
+# ls for mac with gdircolors
+if [[ $PLATFORM == "Darwin" ]]; then
+   alias ls="gls"
+   alias la="gls -a"
+   alias lla="gls -la"
+   alias ll="ls -lh"
+fi
 
 alias vim="nvim"
 alias svim="sudo -E vim"
