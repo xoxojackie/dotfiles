@@ -48,7 +48,14 @@ esac
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
-if [[ $HOST == "Guinevere" ]]; then 
+# platform specific options
+PLATFORM=$(uname)
+
+if [[ $PLATFORM == "Linux" ]]; then
+   eval `dircolors ~/.config/dircolors/nord-dircolors`
+fi
+# host specific options
+if [[ $HOST == "Guinevere" ]]; then
    source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
    eval "$(rbenv init -)"
 fi
