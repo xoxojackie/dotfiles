@@ -10,10 +10,10 @@ alias ll="ls -lh"
 
 # ls for mac with gdircolors
 if [[ $PLATFORM == "Darwin" ]]; then
-   alias ls="gls"
-   alias la="gls -a"
-   alias lla="gls -la"
-   alias ll="ls -lh"
+   alias ls="gls --color=auto"
+   alias la="gls -a --color=auto"
+   alias lla="gls -la --color=auto"
+   alias ll="ls -lh --color=auto"
 fi
 
 alias vim="nvim"

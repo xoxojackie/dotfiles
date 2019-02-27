@@ -53,6 +53,8 @@ PLATFORM=$(uname)
 
 if [[ $PLATFORM == "Linux" ]]; then
    eval `dircolors ~/.config/dircolors/nord-dircolors`
+elif [[ $PLATFORM == "Darwin" ]]; then
+   eval `gdircolors ~/.config/dircolors/nord-dircolors`
 fi
 # host specific options
 if [[ $HOST == "Guinevere" ]]; then
