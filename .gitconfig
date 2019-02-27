@@ -3,3 +3,5 @@
 	email = jackiecampbell3@gmail.com
 [color]
 	ui = auto
+[core]
+	pager = less -F -X
