@@ -17,7 +17,7 @@ if [[ $PLATFORM == "Darwin" ]]; then
 fi
 
 alias vim="nvim"
-alias svim="sudo -E vim"
+alias svim="sudo -E nvim"
 
 alias hiss="history | grep"
 
