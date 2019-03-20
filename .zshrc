@@ -43,6 +43,8 @@ case $HOST in
       SPACESHIP_HOST_COLOR_SSH="green" ;;
    Merlin)
       SPACESHIP_HOST_COLOR_SSH="magenta" ;;
+   *)
+      SPACESHIP_HOST_COLOR_SSH="blue" ;;
 esac
 
 # source aliases and functions
