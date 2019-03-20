@@ -2,9 +2,9 @@
 
 echo "installing programs"
 if [[ $(uname) == "Linux" ]]; then
-   sudo apt install zsh git tmux vim neovim dircolors sshfs
+   sudo apt install -y zsh git tmux vim neovim sshfs mosh
 elif [[ $(uname) == "Darwin" ]]; then
-   brew install zsh git tmux vim neovim coreutils sshf
+   brew install zsh git tmux vim neovim coreutils sshf mosh
 fi
 
 echo "bootstrapping antigen"
@@ -19,5 +19,4 @@ fi
 
 chsh -s $(which zsh) && zsh
 
-echo "Log out and log back in!"
 
