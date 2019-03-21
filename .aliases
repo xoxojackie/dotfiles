@@ -8,6 +8,8 @@ alias la="ls -a"
 alias lla="ls -la"
 alias ll="ls -lh"
 
+alias mkdir="mkdir -p"
+
 # ls for mac with gdircolors
 if [[ $PLATFORM == "Darwin" ]]; then
    alias ls="gls --color=auto"
