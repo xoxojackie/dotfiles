@@ -40,11 +40,11 @@ case $HOST in
    Avalon)
       SPACESHIP_HOST_COLOR_SSH="yellow" ;;
    Guinivere)
-      SPACESHIP_HOST_COLOR_SSH="green" ;;
+      SPACESHIP_HOST_COLOR_SSH="blue" ;;
    Merlin)
       SPACESHIP_HOST_COLOR_SSH="magenta" ;;
    *)
-      SPACESHIP_HOST_COLOR_SSH="blue" ;;
+      SPACESHIP_HOST_COLOR_SSH="green" ;;
 esac
 
 # source aliases and functions
