@@ -2,9 +2,9 @@
 
 echo "installing programs"
 if [[ $(uname) == "Linux" ]]; then
-   sudo apt install -y zsh git tmux vim neovim sshfs mosh python-pip
+   sudo apt install -y zsh git tmux vim neovim mosh python-pip
 elif [[ $(uname) == "Darwin" ]]; then
-   brew install zsh git tmux vim neovim coreutils sshf mosh
+   brew install zsh git tmux vim neovim coreutils mosh python
 fi
 
 if [[ ! -e $HOME/.antigen ]]; then
