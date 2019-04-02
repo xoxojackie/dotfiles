@@ -38,5 +38,6 @@ alias rsync="rsync --no-i-r --info=progress2"
 alias dc="docker-compose -f /opt/docker-compose.yml"
 
 alias tls="tmux ls"
-alias tma="tmux attach"
-alias tmat="tmux attach -t"
+alias ta="tmux attach"
+alias tat="tmux attach -t"
+alias tns="tmux new -s"

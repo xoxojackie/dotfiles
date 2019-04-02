@@ -32,7 +32,7 @@ SPACESHIP_USER_COLOR="white"
 SPACESHIP_HOST_SHOW="always"
 
 SPACESHIP_PROMPT_ORDER=(dir docker git pyenv ruby line_sep exec_time exit_code char)
-SPACESHIP_RPROMPT_ORDER=(user host)
+SPACESHIP_RPROMPT_ORDER=(host)
 
 case $HOST in
    Avalon)
