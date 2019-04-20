@@ -2,10 +2,11 @@
 
 echo "installing programs"
 if [[ $(uname) == "Linux" ]]; then
+   programs="zsh git tmux vim neovim mosh python-pip"
    which apt && \
-      sudo apt install -y zsh git tmux vim neovim mosh python-pip
+      sudo apt install -y "$programs"
    which pacman && \
-      sudo pacman -Syu zsh git tmux vim neovim mosh python-pip
+      sudo pacman -Syu "$programs"
 elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim neovim coreutils mosh python urlview fpp reattach-to-user-namespace
 fi
