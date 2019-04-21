@@ -6,7 +6,7 @@ if [[ $(uname) == "Linux" ]]; then
    which apt && \
       sudo apt install -y "$programs"
    which pacman && \
-      sudo pacman -Syu "$programs"
+      sudo pacman -Syu $programs
 elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim neovim coreutils mosh python urlview fpp reattach-to-user-namespace
 fi
