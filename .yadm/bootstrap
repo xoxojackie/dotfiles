@@ -28,6 +28,11 @@ if command -v vim >/dev/null 2>&1; then
   vim '+PlugUpdate' '+PlugClean!' '+PlugUpdate' '+qall'
 fi
 
+if [[ $(uname) == "Darwin" ]]; then
+   echo "bootstrapping vscode"
+   ln -sf ~/.config/Code/User/settings.json "~/Library/Application Support/Code/User/settings.json"
+fi
+
 chsh -s $(which zsh) && zsh
 
 
