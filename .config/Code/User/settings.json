@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "Nord",
+
+    
+    "editor.letterSpacing": -0.75,
+    
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": [";"],
+        "commands": [
+            "workbench.action.showCommands",
+        ]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "editor.fontFamily": "FuraCodeNerdFontCompleteM-Regular",
+    "editor.tabSize": 3,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "bold",
+    "explorer.confirmDragAndDrop": false
+}
