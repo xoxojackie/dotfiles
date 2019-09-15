@@ -35,11 +35,11 @@ SPACESHIP_PROMPT_ORDER=(dir docker git pyenv ruby line_sep exec_time exit_code c
 SPACESHIP_RPROMPT_ORDER=(host)
 
 case $HOST in
-   Avalon)
+   Avalon*)
       SPACESHIP_HOST_COLOR_SSH="yellow" ;;
-   Guinivere)
+   Guinivere*)
       SPACESHIP_HOST_COLOR_SSH="blue" ;;
-   Merlin)
+   Merlin*)
       SPACESHIP_HOST_COLOR_SSH="magenta" ;;
    *)
       SPACESHIP_HOST_COLOR_SSH="green" ;;
@@ -48,6 +48,10 @@ esac
 # source aliases and functions
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
+
+# add .bin to path
+export PATH="$HOME/.bin:$PATH"
+
 
 # platform specific options
 PLATFORM=$(uname)
