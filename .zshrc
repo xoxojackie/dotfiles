@@ -50,8 +50,7 @@ esac
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
 # add .bin to path
-export PATH="$HOME/.bin:$PATH"
-
+export PATH="$PATH:HOME/.bin"
 
 # platform specific options
 PLATFORM=$(uname)
