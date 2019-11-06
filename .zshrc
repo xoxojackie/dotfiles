@@ -51,6 +51,7 @@ esac
 
 # add .bin to path
 export PATH="$PATH:HOME/.bin"
+export PATH="$PATH:/snap/bin"
 
 # platform specific options
 PLATFORM=$(uname)
