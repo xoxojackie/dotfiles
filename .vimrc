@@ -43,7 +43,6 @@ endif
 
 let colorspace=256
 
-colorscheme nord
 syntax on
 
 "---#airline options----------------------------------------
@@ -97,3 +96,4 @@ augroup nord
     autocmd ColorScheme nord highlight shVariable ctermfg=6 guifg=#88C0D0
 augroup END
 
+colorscheme nord

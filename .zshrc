@@ -50,7 +50,7 @@ esac
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
 
 # add .bin to path
-export PATH="$PATH:HOME/.bin"
+export PATH="$PATH:$HOME/.bin"
 export PATH="$PATH:/snap/bin"
 
 # platform specific options
