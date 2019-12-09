@@ -25,7 +25,7 @@ fi
 
 if command -v vim >/dev/null 2>&1; then
   echo "Bootstraping Vim"
-  vim '+PlugUpdate' '+PlugClean!' '+PlugUpdate' '+qall'
+  vim '+PlugInstall!' '+PlugClean!' '+PlugUpdate!' '+qall'
 fi
 
 if [[ $(uname) == "Darwin" ]]; then
