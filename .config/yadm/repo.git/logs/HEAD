@@ -4,3 +4,4 @@ b6887e38a232ff4fc68cdb199df166f99c5b958f b6887e38a232ff4fc68cdb199df166f99c5b958
 b6887e38a232ff4fc68cdb199df166f99c5b958f eeca86c426b40184a114fa71404e823252b0b9ae Jackie Campbell <jackiecampbell3@gmail.com> 1586459205 -0400	commit: moved bootstrap to .congig/yadm
 eeca86c426b40184a114fa71404e823252b0b9ae cdfc48426d6a833d633f39811ab36bfa8c1970ab xoxojackie <jackiecampbell3@gmail.com> 1586459477 -0400	commit: remove .yadm
 cdfc48426d6a833d633f39811ab36bfa8c1970ab fb4168984363540faa226ad7a3317c7d4b265b3f xoxojackie <jackiecampbell3@gmail.com> 1586459736 -0400	commit: fix \ not splitting pane on mac
+fb4168984363540faa226ad7a3317c7d4b265b3f b92a6d87c6352475478aa960b6289938627bc035 xoxojackie <jackiecampbell3@gmail.com> 1586459848 -0400	commit: some iterm shell integration
