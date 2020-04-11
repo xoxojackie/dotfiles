@@ -25,8 +25,7 @@ SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
 
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
-SPACESHIP_EXIT_CODE_SHOW="true"
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true" SPACESHIP_EXIT_CODE_SHOW="true"
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_COLOR="white"
 SPACESHIP_HOST_SHOW="always"
@@ -62,7 +61,7 @@ elif [[ $PLATFORM == "Darwin" ]]; then
    eval `gdircolors ~/.config/dircolors/nord-dircolors`
 fi
 # host specific options
-if [[ $HOST == "Guinevere" ]]; then
+if [[ $HOST == "Guinevere" ]] || [[ $HOST == "Caelia" ]]; then
    source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
    eval "$(rbenv init -)"
 fi
