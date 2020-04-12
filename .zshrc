@@ -1,21 +1,18 @@
-# load antigen
-source $HOME/.antigen.zsh
-
-# load oh-my-zsh's library
-antigen use oh-my-zsh
+# load zplug
+source $HOME/.zplug/init.zsh
 
 # plugins
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-completions
-antigen bundle git
-antigen bundle z
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/z", from:oh-my-zsh
 
 # theme
-antigen theme denysdovhan/spaceship-prompt
+zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
-# apply antigen
-antigen apply
+# apply zplug
+zplug load
 
 # editor
 export EDITOR='nvim'

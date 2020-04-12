@@ -11,10 +11,14 @@ elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim neovim coreutils mosh python urlview fpp reattach-to-user-namespace
 fi
 
-if [[ ! -e $HOME/.antigen ]]; then
-   echo "bootstrapping antigen"
-   git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
+if [[ ! -e $HOME/.zplug ]]; then
+   echo "bootstrapping zplug"
+   curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 fi
+#if [[ ! -e $HOME/.antigen ]]; then
+#   echo "bootstrapping antigen"
+#   git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
+#fi
 
 
 if [[ ! -e $HOME/.tmux/plugins/tpm ]]; then
