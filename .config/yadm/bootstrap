@@ -15,6 +15,7 @@ if [[ ! -e $HOME/.zplug ]]; then
    echo "bootstrapping zplug"
    curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 fi
+
 #if [[ ! -e $HOME/.antigen ]]; then
 #   echo "bootstrapping antigen"
 #   git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
@@ -38,5 +39,4 @@ if [[ $(uname) == "Darwin" ]]; then
 fi
 
 chsh -s $(which zsh) && zsh
-
 
