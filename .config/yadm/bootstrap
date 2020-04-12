@@ -13,7 +13,7 @@ fi
 
 if [[ ! -e $HOME/.antigen ]]; then
    echo "bootstrapping antigen"
-   git clone https://github.com/zsh-users/antigen.git $HOME/antigen
+   git clone https://github.com/zsh-users/antigen.git $HOME/.antigen
 fi
 
 
