@@ -10,9 +10,7 @@ zplug "plugins/z", from:oh-my-zsh
 
 # theme
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
-
-# apply zplug
-zplug load
+#zplug 'dracula/zsh', as:theme
 
 # editor
 export EDITOR='nvim'
@@ -70,3 +68,13 @@ fi
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# apply zplug
+zplug load --verbose
