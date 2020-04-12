@@ -60,10 +60,15 @@ if [[ $PLATFORM == "Linux" ]]; then
 elif [[ $PLATFORM == "Darwin" ]]; then
    eval `gdircolors ~/.config/dircolors/nord-dircolors`
 fi
-# host specific options
+
+# host spedific options
 if [[ $HOST == "Guinevere" ]] || [[ $HOST == "Caelia" ]]; then
-   source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
    eval "$(rbenv init -)"
+fi
+
+# iterm shell integration
+if [[ -f "$HOME/.iterm2/.iterm2_shell_integration.zsh" ]]; then
+   source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
 fi
 
 export LC_ALL=en_US.UTF-8
