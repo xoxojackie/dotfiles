@@ -1550,7 +1550,7 @@
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
-			<string>ssh thewiz@192.168.2.10 -t tmux a</string>
+			<string>mosh thewiz@192.168.2.10 -t tmux a</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1983,7 +1983,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>608406577.76286697</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>14</integer>
+	<integer>17</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>

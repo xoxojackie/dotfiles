@@ -1,28 +1,22 @@
-# load zplug
-source $HOME/.zplug/init.zsh
+# load antigen
+source $HOME/antigen/antigen.zsh
 
-# zsh-users plugins
-zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "zsh-users/zsh-syntax-highlighting"
-zplug "zsh-users/zsh-history-substring-search"
-# bind keys for history substring search
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+# load oh-my-zsh's library
+antigen use oh-my-zsh
 
-# omz plugins
-zplug "plugins/z", from:oh-my-zsh
+# plugins
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-history-substring-search
+antigen bundle git
+antigen bundle z
 
 # theme
-zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
-#zplug 'dracula/zsh', as:theme
+antigen theme denysdovhan/spaceship-prompt
 
-if ! zplug check; then
-   zplug install
-fi
-
-# apply zplug
-zplug load
+# apply antigen
+antigen apply
 
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="❯ "
