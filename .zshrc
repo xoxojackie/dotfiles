@@ -22,8 +22,8 @@ antigen apply
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
-
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true" SPACESHIP_EXIT_CODE_SHOW="true"
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true" 
+SPACESHIP_EXIT_CODE_SHOW="true"
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_COLOR="white"
 SPACESHIP_HOST_SHOW="always"
@@ -31,15 +31,18 @@ SPACESHIP_HOST_SHOW="always"
 SPACESHIP_PROMPT_ORDER=(dir docker git pyenv ruby line_sep exec_time exit_code char)
 SPACESHIP_RPROMPT_ORDER=(host)
 
+SPACESHIP_HOST_COLOR="cyan"
 case $HOST in
    Avalon*)
       SPACESHIP_HOST_COLOR_SSH="yellow" ;;
    Guinivere*)
-      SPACESHIP_HOST_COLOR_SSH="blue" ;;
-   Merlin*)
       SPACESHIP_HOST_COLOR_SSH="magenta" ;;
-   *)
+   Merlin*)
+      SPACESHIP_HOST_COLOR_SSH="blue" ;;
+   Caelia*)
       SPACESHIP_HOST_COLOR_SSH="green" ;;
+   *)
+      SPACESHIP_HOST_COLOR_SSH="red" ;;
 esac
 
 # editor
