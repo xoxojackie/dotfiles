@@ -1,19 +1,28 @@
 # load zplug
 source $HOME/.zplug/init.zsh
 
-# plugins
-zplug "zsh-users/zsh-completions",              defer:0
-zplug "zsh-users/zsh-autosuggestions",          defer:2, on:"zsh-users/zsh-completions"
-zplug "zsh-users/zsh-syntax-highlighting",      defer:3, on:"zsh-users/zsh-autosuggestions"
-zplug "zsh-users/zsh-history-substring-search", defer:3, on:"zsh-users/zsh-syntax-highlighting"
+# zsh-users plugins
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
+# bind keys for history substring search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# omz plugins
 zplug "plugins/z", from:oh-my-zsh
 
 # theme
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 #zplug 'dracula/zsh', as:theme
 
-# editor
-export EDITOR='nvim'
+if ! zplug check; then
+   zplug install
+fi
+
+# apply zplug
+zplug load
 
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="❯ "
@@ -38,6 +47,15 @@ case $HOST in
    *)
       SPACESHIP_HOST_COLOR_SSH="green" ;;
 esac
+
+# editor
+export EDITOR='nvim'
+
+# history options
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=100000
+SAVEHIST=100000
+setopt appendhistory
 
 # source aliases and functions
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
@@ -69,9 +87,3 @@ fi
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-if ! zplug check; then
-   zplug install
-fi
-
-# apply zplug
-zplug load
