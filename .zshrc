@@ -48,11 +48,16 @@ esac
 # editor
 export EDITOR='nvim'
 
+#keybinds for history-substring-search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
 # history options
 HISTFILE=$HOME/.zsh_history
-HISTSIZE=100000
-SAVEHIST=100000
+HISTSIZE=9999999
+SAVEHIST=9999999
 setopt appendhistory
+setopt sharehistory
 
 # source aliases and functions
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
