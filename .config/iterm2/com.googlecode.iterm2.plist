@@ -1516,6 +1516,8 @@
 			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
+			<key>Custom Window Title</key>
+			<string>MERLIN</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1550,7 +1552,7 @@
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
-			<string>mosh thewiz@192.168.2.10 -t tmux a</string>
+			<string>mosh thewiz@192.168.2.10</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1921,13 +1923,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.67843137254901964</real>
+				<real>0.75686274509803919</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.55686274509803924</real>
+				<real>0.63137254901960782</real>
 				<key>Red Component</key>
-				<real>0.70588235294117652</real>
+				<real>0.50588235294117645</real>
 			</dict>
 			<key>Tags</key>
 			<array/>
@@ -1942,6 +1944,8 @@
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
+			<true/>
+			<key>Use Custom Window Title</key>
 			<true/>
 			<key>Use Italic Font</key>
 			<true/>
@@ -1981,9 +1985,9 @@
 	<key>NoSyncInstallationId</key>
 	<string>79C69A97-F640-48F5-8A53-8210E8CAED51</string>
 	<key>NoSyncLastTipTime</key>
-	<real>608406577.76286697</real>
+	<real>608493145.27186096</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>17</integer>
+	<integer>18</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2746,6 +2750,7 @@
 	<array>
 		<string>000</string>
 		<string>0000</string>
+		<string>0001</string>
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
@@ -2797,7 +2802,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-12T17:42:54Z</date>
+	<date>2020-04-13T17:42:54Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
