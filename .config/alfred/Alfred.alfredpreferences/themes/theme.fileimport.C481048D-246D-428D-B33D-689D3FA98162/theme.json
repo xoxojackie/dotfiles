@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#212121FF",
+        "font" : "System",
+        "color" : "#0000007F"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#647B88FF"
+      },
+      "backgroundSelected" : "#797979FF",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FEFFFFFF",
+        "font" : "System",
+        "color" : "#202120FF"
+      },
+      "iconPaddingHorizontal" : 8,
+      "paddingVertical" : 7,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 10,
+      "background" : "#FEFFFFFF",
+      "spacing" : 0,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#212121FF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#FEFFFFFF",
+      "paddingHorizontal" : 7,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 21,
+      "roundness" : -64,
+      "paddingVertical" : 5
+    },
+    "credit" : "Budi Irawan",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#647B88FF",
+      "thickness" : 2
+    },
+    "name" : "Material Blue Grey"
+  }
+}
