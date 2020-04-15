@@ -22,7 +22,7 @@ antigen apply
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true" 
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
 SPACESHIP_EXIT_CODE_SHOW="true"
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_COLOR="white"
@@ -76,15 +76,16 @@ elif [[ $PLATFORM == "Darwin" ]]; then
    eval `gdircolors ~/.config/dircolors/nord-dircolors`
 fi
 
-# host spedific options
-if [[ $HOST == "Guinevere" ]] || [[ $HOST == "Caelia" ]]; then
+# iterm shell integration
+if [[ -f "$HOME/.iterm2_shell_integration.zsh" ]]; then
+   source "$HOME/.iterm2_shell_integration.zsh"
+fi
+
+# load ruby environment
+if command -v rbenv ; then
    eval "$(rbenv init -)"
 fi
 
-# iterm shell integration
-if [[ -f "$HOME/.iterm2/.iterm2_shell_integration.zsh" ]]; then
-   source "$HOME/.iterm2/.iterm2_shell_integration.zsh"
-fi
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
