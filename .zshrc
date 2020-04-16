@@ -35,12 +35,12 @@ SPACESHIP_HOST_COLOR="cyan"
 case $HOST in
    Avalon*)
       SPACESHIP_HOST_COLOR_SSH="yellow" ;;
-   Guinivere*)
+   Guinevere*)
       SPACESHIP_HOST_COLOR_SSH="magenta" ;;
    Merlin*)
       SPACESHIP_HOST_COLOR_SSH="blue" ;;
    Caelia*)
-      SPACESHIP_HOST_COLOR_SSH="green" ;;
+      SPACESHIP_HOST_COLOR_SSH="cyan" ;;
    *)
       SPACESHIP_HOST_COLOR_SSH="red" ;;
 esac
