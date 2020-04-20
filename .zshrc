@@ -31,18 +31,22 @@ SPACESHIP_HOST_SHOW="always"
 SPACESHIP_PROMPT_ORDER=(dir docker git pyenv ruby line_sep exec_time exit_code char)
 SPACESHIP_RPROMPT_ORDER=(host)
 
-SPACESHIP_HOST_COLOR="cyan"
 case $HOST in
    Avalon*)
-      SPACESHIP_HOST_COLOR_SSH="yellow" ;;
+      SPACESHIP_HOST_COLOR_SSH="yellow"
+      SPACESHIP_HOST_COLOR="yellow" ;;
    Guinevere*)
-      SPACESHIP_HOST_COLOR_SSH="magenta" ;;
+      SPACESHIP_HOST_COLOR_SSH="magenta"
+      SPACESHIP_HOST_COLOR="magenta" ;;
    Merlin*)
-      SPACESHIP_HOST_COLOR_SSH="blue" ;;
+      SPACESHIP_HOST_COLOR_SSH="blue"
+      SPACESHIP_HOST_COLOR="blue" ;;
    Caelia*)
-      SPACESHIP_HOST_COLOR_SSH="cyan" ;;
+      SPACESHIP_HOST_COLOR_SSH="cyan"
+      SPACESHIP_HOST_COLOR="cyan" ;;
    *)
-      SPACESHIP_HOST_COLOR_SSH="red" ;;
+      SPACESHIP_HOST_COLOR_SSH="red"
+      SPACESHIP_HOST_COLOR="red" ;;
 esac
 
 # editor
