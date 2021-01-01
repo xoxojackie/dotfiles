@@ -9,12 +9,12 @@
 		<key>key</key>
 		<integer>9</integer>
 		<key>mod</key>
-		<integer>1572864</integer>
+		<integer>393216</integer>
 		<key>string</key>
 		<string>V</string>
 	</dict>
 	<key>snippetKeyword</key>
-	<string>cl</string>
+	<string>clip</string>
 	<key>viewerKeyword</key>
 	<string>paste</string>
 </dict>
