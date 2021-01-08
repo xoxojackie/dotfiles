@@ -4,6 +4,8 @@
 <dict>
 	<key>currentthemeuid</key>
 	<string>theme.fileimport.5B330A69-A881-4ED4-BF78-55BB9DEA4D4A</string>
+	<key>lightthemeuid</key>
+	<string>theme.fileimport.5B330A69-A881-4ED4-BF78-55BB9DEA4D4A</string>
 	<key>theme</key>
 	<string>alfred.theme.custom.FC578C6B-7103-4A08-9FB5-B4AF9B3CEF56</string>
 </dict>

@@ -41,3 +41,5 @@ alias tls="tmux ls"
 alias ta="tmux attach"
 alias tat="tmux attach -t"
 alias tns="tmux new -s"
+
+alias gc='git commit -m "'

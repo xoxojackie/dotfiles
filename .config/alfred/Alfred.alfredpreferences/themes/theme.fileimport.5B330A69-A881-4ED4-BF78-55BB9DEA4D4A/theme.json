@@ -26,11 +26,11 @@
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 10,
+      "paddingVertical" : 0,
       "background" : "#343B47FF",
       "spacing" : 8,
       "text" : {
-        "size" : 39,
+        "size" : 35,
         "colorSelected" : "#000000FF",
         "font" : "Avenir Next",
         "color" : "#EBEEF4FF"
@@ -44,7 +44,7 @@
       "borderPadding" : 0,
       "borderColor" : "#0000007F",
       "blur" : 29,
-      "roundness" : 3,
+      "roundness" : 5,
       "paddingVertical" : 8
     },
     "credit" : "kind of me",

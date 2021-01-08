@@ -8,16 +8,6 @@
 	<false/>
 	<key>AllowClipboardAccess</key>
 	<true/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Nord</key>
@@ -395,6 +385,7 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+<<<<<<< HEAD
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -450,6 +441,8 @@
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>11 117 1306 748 0 0 1440 877 </string>
+=======
+>>>>>>> 44d3e97335c512b0392922d1073cc5555dfff52f
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -794,6 +787,8 @@
 			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string>tmux a</string>
 			<key>Initial Use Transparency</key>
 			<false/>
 			<key>Jobs to Ignore</key>
@@ -4245,6 +4240,7 @@
 			<string>/Users/jackie</string>
 		</dict>
 	</array>
+<<<<<<< HEAD
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.9</string>
@@ -5091,6 +5087,8 @@
 	<false/>
 	<key>NoSyncTurnOffMouseReportingOnHostChange</key>
 	<false/>
+=======
+>>>>>>> 44d3e97335c512b0392922d1073cc5555dfff52f
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -5128,6 +5126,7 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+<<<<<<< HEAD
 	<key>PrefsCustomFolder</key>
 	<string>~/.config/iterm2/</string>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -5150,6 +5149,10 @@
 	<integer>809525776</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
+=======
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
+>>>>>>> 44d3e97335c512b0392922d1073cc5555dfff52f
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
@@ -5162,8 +5165,11 @@
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
+<<<<<<< HEAD
 	<key>iTerm Version</key>
 	<string>3.3.12</string>
+=======
+>>>>>>> 44d3e97335c512b0392922d1073cc5555dfff52f
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
