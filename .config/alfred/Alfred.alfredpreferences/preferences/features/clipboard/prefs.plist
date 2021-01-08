@@ -14,8 +14,8 @@
 		<string>V</string>
 	</dict>
 	<key>snippetKeyword</key>
-	<string>clip</string>
-	<key>viewerKeyword</key>
 	<string>paste</string>
+	<key>viewerKeyword</key>
+	<string>clip</string>
 </dict>
 </plist>
