@@ -18,7 +18,7 @@ antigen theme denysdovhan/spaceship-prompt
 antigen apply
 
 # spaceship prompt settings
-SPACESHIP_CHAR_SYMBOL="⚡ "
+SPACESHIP_CHAR_SYMBOL="ϟ "
 SPACESHIP_HOST_PREFIX="@ "
 SPACESHIP_EXEC_TIME_PREFIX="⧖ "
 SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
