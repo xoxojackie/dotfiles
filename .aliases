@@ -29,7 +29,7 @@ alias ctl="sudo systemctl"
 alias journal="sudo journalctl"
 
 alias aptup="sudo apt-get update && sudo apt-get upgrade"
-alias inst="sudo apt-get install"
+alias inst="sudo apt-get update && sudo apt-get install"
 
 alias disks="sudo lsblk -o 'NAME,LABEL,SIZE,MOUNTPOINT,UUID,VENDOR'"
 
