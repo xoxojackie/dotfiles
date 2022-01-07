@@ -7,3 +7,6 @@
 	pager = less -F -X
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
