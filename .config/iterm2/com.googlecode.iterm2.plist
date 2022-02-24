@@ -1887,6 +1887,8 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
+			<key>Use Custom Tab Title</key>
+			<false/>
 			<key>Use Custom Window Title</key>
 			<true/>
 			<key>Use Italic Font</key>
