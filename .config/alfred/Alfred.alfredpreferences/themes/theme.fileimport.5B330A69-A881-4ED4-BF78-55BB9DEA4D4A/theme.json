@@ -22,12 +22,13 @@
         "color" : "#D7DDE9FF"
       },
       "iconPaddingHorizontal" : 4,
+      "roundness" : 0,
       "paddingVertical" : 9,
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 0,
-      "background" : "#343B47FF",
+      "backgroundSelected" : "#B2D7FFFF",
+      "paddingHorizontal" : 8,
       "spacing" : 8,
       "text" : {
         "size" : 35,
@@ -35,7 +36,9 @@
         "font" : "Avenir Next",
         "color" : "#EBEEF4FF"
       },
-      "backgroundSelected" : "#B2D7FFFF"
+      "background" : "#343B47FF",
+      "roundness" : 0,
+      "paddingVertical" : 0
     },
     "window" : {
       "color" : "#343B48FF",
@@ -43,11 +46,12 @@
       "width" : 538,
       "borderPadding" : 0,
       "borderColor" : "#0000007F",
-      "blur" : 29,
+      "blur" : 0,
       "roundness" : 5,
       "paddingVertical" : 8
     },
     "credit" : "kind of me",
+    "visualEffectMode" : 1,
     "separator" : {
       "color" : "#CBCBCBF3",
       "thickness" : 0
