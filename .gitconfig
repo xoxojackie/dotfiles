@@ -1,14 +1,13 @@
-[user]
-	name =  Jackie Campbell
-	email = jackiecampbell3@gmail.com
 [color]
 	ui = auto
 [core]
 	pager = less -F -X
-	excludesfile = /Users/jackie/.gitignore_global
+	excludesfile = .gitignore_global
 	editor = nvim
 [init]
 	defaultBranch = main
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[include]
+    path = .gitconfig.local
