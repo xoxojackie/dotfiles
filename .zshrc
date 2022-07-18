@@ -79,6 +79,9 @@ elif [[ $PLATFORM == "Darwin" ]]; then
    eval `gdircolors ~/.config/dircolors/nord-dircolors`
 fi
 
+# bat theme
+export BAT_THEME="Nord"
+
 # iterm shell integration
 if [[ -f "$HOME/.iterm2_shell_integration.zsh" ]]; then
    source "$HOME/.iterm2_shell_integration.zsh"
