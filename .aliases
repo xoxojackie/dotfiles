@@ -43,3 +43,9 @@ alias tat="tmux attach -t"
 alias tns="tmux new -s"
 
 alias gc='git commit -m "'
+
+if [[ $PLATFORM == "Darwin" ]]; then
+   alias cat="bat --paging=never"
+else
+   alias cat="batcat --paging=never"
+fi
