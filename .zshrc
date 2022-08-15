@@ -101,4 +101,6 @@ export LANG=en_US.UTF-8
 
 # Fig post block. Keep at the bottom of this file.
 
-which fig >/dev/null && [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+if command -v fig &> /dev/null ; then
+   source "$HOME/.fig/shell/zshrc.post.zsh"
+fi
