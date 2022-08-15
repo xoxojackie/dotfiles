@@ -1753,7 +1753,7 @@
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
@@ -2154,7 +2154,7 @@
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
@@ -3277,7 +3277,7 @@
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Columns</key>
 			<integer>176</integer>
 			<key>Command</key>
@@ -4036,7 +4036,7 @@
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Columns</key>
 			<integer>176</integer>
 			<key>Command</key>
