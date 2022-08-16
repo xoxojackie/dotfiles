@@ -37,5 +37,9 @@ if [[ ! -e $HOME/.iterm2_shell_integration.zsh ]]; then
    -o ~/.iterm2_shell_integration.zsh
 fi
 
+if [[ $(uname) == "Darwin" ]]; then
+   defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+fi
+
 chsh -s $(which zsh) && zsh
 
