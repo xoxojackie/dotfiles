@@ -105,6 +105,6 @@ if command -v fig &> /dev/null ; then
    source "$HOME/.fig/shell/zshrc.post.zsh"
 fi
 
-if command -v gpg ; then
+if command -v gpg &> /dev/null ; then
    export GPG_TTY=$(tty)
 fi
