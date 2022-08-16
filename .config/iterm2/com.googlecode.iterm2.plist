@@ -3691,6 +3691,8 @@
 				<key>Red Component</key>
 				<real>0.87367779016494751</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -3781,9 +3783,9 @@
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Custom Tab Title</key>
-			<true/>
+			<false/>
 			<key>Use Custom Window Title</key>
-			<true/>
+			<false/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
