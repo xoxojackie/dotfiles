@@ -104,3 +104,7 @@ export LANG=en_US.UTF-8
 if command -v fig &> /dev/null ; then
    source "$HOME/.fig/shell/zshrc.post.zsh"
 fi
+
+if command -v gpg ; then
+   export GPG_TTY=$(tty)
+fi
