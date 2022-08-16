@@ -108,3 +108,7 @@ fi
 if command -v gpg &> /dev/null ; then
    export GPG_TTY=$(tty)
 fi
+
+if command -v thefuck &> /dev/null ; then
+   eval $(thefuck --alias)
+fi
