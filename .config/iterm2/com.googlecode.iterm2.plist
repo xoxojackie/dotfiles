@@ -748,6 +748,10 @@
 	<real>0.10000000149011612</real>
 	<key>MinimalTabStyleTreatLeftInsetAsPartOfFirstTab</key>
 	<false/>
+	<key>NeverWarnAboutShortLivedSessions_9376B863-3782-4809-AEDB-9CEA3799AF94</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_9376B863-3782-4809-AEDB-9CEA3799AF94_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1462,13 +1466,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.79607843137254897</real>
+				<real>0.25300124287605286</real>
 				<key>Color Space</key>
-				<string>sRGB</string>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.73725490196078436</real>
+				<real>0.19692185521125793</real>
 				<key>Red Component</key>
-				<real>0.52156862745098043</real>
+				<real>0.17621420323848724</real>
 			</dict>
 			<key>Tags</key>
 			<array/>
@@ -1497,7 +1501,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/jackie</string>
 		</dict>
@@ -2265,7 +2269,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/jackie</string>
 		</dict>
@@ -3024,7 +3028,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/jackie</string>
 		</dict>
