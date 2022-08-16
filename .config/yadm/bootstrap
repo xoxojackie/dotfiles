@@ -9,7 +9,7 @@ if [[ $(uname) == "Linux" ]]; then
       sudo pacman -Syu $programs
 elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim neovim coreutils mosh python urlview fpp \
-      reattach-to-user-namespace bat
+      reattach-to-user-namespace bat gnupg
 fi
 
 
