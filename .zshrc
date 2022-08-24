@@ -1,6 +1,7 @@
 # Fig pre block. Keep at the top of this file.
-which fig >/dev/null && [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
-# load antigen
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+# Fig pre block. Keep at the top of this file.
+which fig >/dev/null && # load antigen
 source $HOME/.antigen/antigen.zsh
 
 # load oh-my-zsh's library
@@ -112,3 +113,6 @@ fi
 if command -v thefuck &> /dev/null ; then
    eval $(thefuck --alias)
 fi
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
