@@ -1,7 +1,9 @@
 # Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 # Fig pre block. Keep at the top of this file.
-which fig >/dev/null && # load antigen
+which fig >/dev/null && [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+
+# load antigen
 source $HOME/.antigen/antigen.zsh
 
 # load oh-my-zsh's library
