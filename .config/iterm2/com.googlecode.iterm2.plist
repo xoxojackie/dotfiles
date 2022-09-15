@@ -1510,6 +1510,8 @@
 			<true/>
 			<key>ASCII Ligatures</key>
 			<true/>
+			<key>Allow Title Setting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1823,6 +1825,8 @@
 			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
+			<key>Custom Tab Title</key>
+			<string>Merlin</string>
 			<key>Custom Window Title</key>
 			<string>MERLIN</string>
 			<key>Default Bookmark</key>
@@ -2247,7 +2251,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Title Components</key>
-			<integer>544</integer>
+			<integer>32</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -2257,7 +2261,7 @@
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Custom Tab Title</key>
-			<false/>
+			<true/>
 			<key>Use Custom Window Title</key>
 			<false/>
 			<key>Use Italic Font</key>
@@ -2280,6 +2284,8 @@
 			<true/>
 			<key>ASCII Ligatures</key>
 			<true/>
+			<key>Allow Title Setting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2592,6 +2598,8 @@
 			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
+			<key>Custom Tab Title</key>
+			<string>Caelia</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -3010,7 +3018,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Title Components</key>
-			<integer>544</integer>
+			<integer>32</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -3018,6 +3026,8 @@
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
+			<true/>
+			<key>Use Custom Tab Title</key>
 			<true/>
 			<key>Use Custom Window Title</key>
 			<false/>
@@ -3041,6 +3051,8 @@
 			<true/>
 			<key>ASCII Ligatures</key>
 			<true/>
+			<key>Allow Title Setting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -3779,7 +3791,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Title Components</key>
-			<integer>544</integer>
+			<integer>32</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unicode Normalization</key>
@@ -3793,7 +3805,7 @@
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Custom Tab Title</key>
-			<false/>
+			<true/>
 			<key>Use Custom Window Title</key>
 			<false/>
 			<key>Use Italic Font</key>
@@ -3816,6 +3828,8 @@
 			<true/>
 			<key>ASCII Ligatures</key>
 			<true/>
+			<key>Allow Title Setting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -4075,6 +4089,7 @@
 			</dict>
 			<key>Bound Hosts</key>
 			<array>
+				<string>avalon*</string>
 				<string>Avalon*</string>
 			</array>
 			<key>Character Encoding</key>
@@ -4164,7 +4179,7 @@
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
-			<string>ssh thewiz@avalon.xojackie.xyz</string>
+			<string>ssh avalon</string>
 			<key>Initial Use Transparency</key>
 			<false/>
 			<key>Jobs to Ignore</key>
@@ -4570,7 +4585,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Title Components</key>
-			<integer>544</integer>
+			<integer>32</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
