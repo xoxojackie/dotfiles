@@ -35,7 +35,7 @@ alias disks="sudo lsblk -o 'NAME,LABEL,SIZE,MOUNTPOINT,UUID,VENDOR'"
 
 alias rsync="rsync --no-i-r --info=progress2"
 
-alias dc="docker-compose -f /opt/docker-compose.yml"
+alias dc="docker compose -f /opt/docker-compose.yml"
 
 alias tls="tmux ls"
 alias ta="tmux attach"
