@@ -35,6 +35,10 @@ let g:airline_symbols.linenr = ''
 
 "---#end airline options------------------------------------
 
+" change backup dirs
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swp//
+
 " don't show mode in status bar
 set noshowmode
 
