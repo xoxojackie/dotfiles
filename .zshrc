@@ -75,6 +75,7 @@ setopt sharehistory
 # add .bin to path
 export PATH="$PATH:$HOME/.bin"
 export PATH="$PATH:/snap/bin"
+export PATH="$PATH:/home/thewiz/.local/bin"
 
 # platform specific options
 PLATFORM=$(uname)
