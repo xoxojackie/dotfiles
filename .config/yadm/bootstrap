@@ -2,14 +2,14 @@
 
 echo "installing programs"
 if [[ $(uname) == "Linux" ]]; then
-   programs="zsh curl wget git tmux vim neovim mosh python3-pip thefuck"
+   programs="zsh curl wget git tmux vim neovim mosh python3-pip thefuck btop"
    which apt && \
       sudo apt install -y $programs
    which pacman && \
       sudo pacman -Syu $programs
 elif [[ $(uname) == "Darwin" ]]; then
    brew install zsh git tmux vim neovim coreutils mosh python urlview fpp \
-      reattach-to-user-namespace bat gnupg thefuck wget
+      reattach-to-user-namespace bat gnupg thefuck wget btop
 fi
 
 
