@@ -1,7 +1,6 @@
 # Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-# Fig pre block. Keep at the top of this file.
-which fig >/dev/null && [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+
 
 # load antigen
 source $HOME/.antigen/antigen.zsh
@@ -103,15 +102,6 @@ fi
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Fig post block. Keep at the bottom of this file.
-
-if command -v fig &> /dev/null ; then
-   source "$HOME/.fig/shell/zshrc.post.zsh"
-fi
-
-if command -v gpg &> /dev/null ; then
-   export GPG_TTY=$(tty)
-fi
 
 if command -v thefuck &> /dev/null ; then
    eval $(thefuck --alias)
