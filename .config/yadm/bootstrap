@@ -2,7 +2,7 @@
 
 echo "installing programs"
 if [[ $(uname) == "Linux" ]]; then
-   programs="zsh curl wget git tmux vim neovim mosh python3-pip thefuck btop"
+   programs="zsh curl wget git tmux vim neovim mosh python3-pip thefuck btop bat"
    which apt && \
       sudo apt install -y $programs
    which pacman && \
