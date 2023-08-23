@@ -22,6 +22,15 @@ antigen theme denysdovhan/spaceship-prompt
 # apply antigen
 antigen apply
 
+# start a tmux session when ssh-ing in 
+if [[ -n "$PS1" ]] && [[ -z "$TMUX" ]] && [[ -n "$SSH_CONNECTION" ]]; then
+   case $HOST in 
+      Wart*)
+         tmux new -AsMain
+   esac
+fi
+   
+
 # spaceship prompt settings
 SPACESHIP_CHAR_SYMBOL="ϟ "
 SPACESHIP_HOST_PREFIX="@ "
