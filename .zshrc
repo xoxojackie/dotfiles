@@ -1,7 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-
-
 # load antigen
 source $HOME/.antigen/antigen.zsh
 
@@ -84,6 +80,3 @@ export LANG=en_US.UTF-8
 if command -v thefuck &> /dev/null ; then
    eval $(thefuck --alias)
 fi
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
